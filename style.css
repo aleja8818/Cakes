@@ -1,0 +1,237 @@
+
+body{
+    background-color: black;
+}
+
+
+header{
+    display: flex;
+    width: 95%;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rosybrown;
+    margin-left: 30px;
+    margin-top: 50px;
+    border-style:dashed;
+    margin-bottom: 100px;
+}
+
+.logo{
+    width: 232px;
+    height: 200px;
+    border-radius: 50%;
+    margin-left: -315px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-color: rgb(224, 171, 23);
+    border-style: solid;
+}
+
+.enlaces a{
+    display: inline-block;
+    text-decoration: none;
+    height: 30px;
+    margin-right: -300px;
+    font-size: 25px;
+    margin-left: 20px;
+    color: black;
+    font-family: 'Arima', cursive;
+    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
+}
+
+button{
+    margin-left: 50px;
+    border-radius: 80%;
+    width: 100px;
+    height: 30px;
+    border-color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h2{
+    color: rgb(241, 229, 195);
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    font-family: 'Arima', cursive;
+}
+
+.boxGalery{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 50px;
+    margin-right: 50px;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.galeria{
+    width: 450px;
+    height: 440px;
+    margin-top: 50px;
+    border: solid; color:  rgb(224, 171, 23);
+}
+
+.servicios{
+    display: flex;
+    margin-left: 50px;
+    margin-right: 50px;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.presentacion{
+    width: 480px;
+    height: 460px;
+    border-style:groove;
+    border-color:   rgb(224, 171, 23);
+    margin-right: 50px;
+}
+
+.parrafo1{
+    color: beige;
+    text-align: justify;
+    margin: 00px 50px;
+    font-size: 28px;
+    font-family: 'Arima', cursive;
+}
+
+#equipo{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+}
+
+.equipo{
+    width: 260px;
+    height: 300px;
+    margin-top: 0px;
+    border-top-left-radius: 14%;
+    border-top-right-radius: 14%;
+    border-color:  rgb(224, 171, 23);
+    border-style:groove;
+}
+
+.parrafito{
+    color: beige;
+    text-align: justify;
+    width:260px;
+    font-family: 'Arima', cursive;
+ 
+
+}
+
+.formulario {
+    background-color: rosybrown;
+    width: 1085px;
+    border-radius: 8px;
+    padding-bottom: 80px; 
+    height: 830px;
+    padding-top: 110px;
+    
+  }
+
+  .input {
+ width: 800px;
+height: 100px;
+font-size: 22px;
+margin-top: 30px;
+margin-left: 127px;
+border-radius: 6px;
+text-align: left;
+padding-left: 20px;
+border-color: rgb(224, 171, 23) ;
+
+}
+
+.boton{
+    text-align: center;
+    width: 400px;
+    height: 80px;
+    margin-top: 50px;
+   border-color: rgb(224, 171, 23) ;
+   font-size: 22px;
+   margin-left: 316px;
+}
+
+footer{
+    margin-top: 100px;
+    background-image: url(./img/WhatsApp\ Image\ 2022-07-04\ at\ 10.44.32\ AM.jpeg);
+    width: 1080px;
+    height: 500px;
+    margin-bottom: 100px;
+    border-radius: 2%;
+    opacity: 90%;
+    
+}
+.foot{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.contenedor{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+
+
+.derechos{
+    position: relative;
+    left: 50%;
+   margin-top: 260px;
+    transform: translate(-50%, -50%);
+    background-color: beige;
+    width: 800px;
+    text-align: end;
+    height: 200px;
+    padding-top: 95px;
+    padding-right: 50px;
+    padding-left: 20px;
+    border-radius: 2%;
+    opacity: 60%; 
+}
+
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.redes{
+    position:absolute;
+    background-color: rgb(248, 77, 77);
+    right: 60%;
+    color: beige;
+    font-size: 30px;
+    border: 3px solid beige;
+    padding: 15px 15px 15px 15px;
+    margin-top: 60px;
+    bottom: 200px;
+    font-weight: 500;
+}
+
+.copy{
+    margin-left: 50px ;
+    text-align: end;
+    color: black;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.text{width: 800px;
+    height: 200px;
+    font-size: 22px;
+    margin-top: 30px;
+    margin-left: 127px;
+    border-radius: 6px;
+    text-align: left;
+    padding-left: 20px;
+    border-color: rgb(224, 171, 23) ;
+
+}
